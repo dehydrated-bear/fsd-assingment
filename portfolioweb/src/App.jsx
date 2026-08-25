@@ -1,4 +1,5 @@
 import './App.css'
+import image from "./assets/image.jpeg";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         </div>
 
         <div className="profile-box">
-          <p>YOUR PHOTO</p>
+          <p> <img src={image} alt="Me" /></p>
         </div>
       </section>
 
@@ -86,13 +87,13 @@ function App() {
       <section id="contact" className="box">
         <h2>Contact Me</h2>
 
-        <p>Email: your@email.com</p>
-        <p>GitHub: github.com/yourname</p>
-        <p>LinkedIn: linkedin.com/in/yourname</p>
+        <p>Email: harsihit@email.com</p>
+        <p>GitHub: github.com/harshit</p>
+        <p>LinkedIn: linkedin.com/in/hashit</p>
       </section>
 
       <footer>
-        <p>© 2026 Harshit</p>
+        <p>portfolio Harshit</p>
       </footer>
 
     </div>

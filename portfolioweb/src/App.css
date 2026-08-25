@@ -65,6 +65,13 @@ nav a {
   align-items: center;
 }
 
+.profile-box img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .cards {
   display: flex;
   gap: 20px;
