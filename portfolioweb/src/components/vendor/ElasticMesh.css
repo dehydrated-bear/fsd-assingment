@@ -1,0 +1,20 @@
+/* React Bits, Copyright (c) 2026 David Haz.
+ * MIT + Commons Clause: full required notice in the accompanying ElasticMesh.jsx.
+ */
+.elastic-mesh {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.elastic-mesh-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
